@@ -3,8 +3,8 @@ package com.ups.operexp;
 public class OperatorExpression implements IExpression {
     private String operation;
 
-    public OperatorExpression(String token) {
-        this.operation = token;
+    public OperatorExpression(String operation) {
+        this.operation = operation;
     }
 
     @Override
