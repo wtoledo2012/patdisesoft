@@ -21,8 +21,8 @@ public class Context {
         }
     }
 
-    public void setOperator(int op) {
-        this.operator = op;
+    public void setOperator(int operator) {
+        this.operator = operator;
     }
 
     public void setOperation(String operation) {
