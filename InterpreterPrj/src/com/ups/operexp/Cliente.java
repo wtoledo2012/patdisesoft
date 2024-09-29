@@ -9,7 +9,7 @@ public class Cliente {
         String[] tree;
         Context context = new Context();
         List<IExpression> expressions = new ArrayList<>();
-        System.out.println("Ingrese la operación en letras: ");
+        System.out.println("Ingrese la operacion en letras: ");
         
         Scanner scanner = new Scanner(System.in);
         String val = scanner.nextLine();
