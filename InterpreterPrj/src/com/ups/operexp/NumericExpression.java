@@ -3,8 +3,8 @@ package com.ups.operexp;
 public class NumericExpression implements IExpression {
     private String value;
 
-    public NumericExpression(String token) {
-        this.value = token;
+    public NumericExpression(String value) {
+        this.value = value;
     }
 
     @Override
